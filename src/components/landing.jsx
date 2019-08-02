@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Main from './main'
 import Navbar from './navbar'
-import Footer from './footer'
+
 import M from 'materialize-css'
 
 class Landing extends Component {
@@ -13,7 +13,7 @@ class Landing extends Component {
             <>
                 <Navbar />
                 <Main />
-                <Footer />
+                
             </>
         );
     }
