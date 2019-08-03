@@ -2,13 +2,13 @@
 
 import React from 'react'
 
-const Card = ({imgsrc, title, text, link}) => 
+const Card = ({imgsrc, title, link, text}) => 
     <div class="card z-depth-4">
         <div class="card-image">
             <img src={ imgsrc } alt="cardimg" />
-            <span class="card-title black-text"><strong>{ title }</strong></span>
         </div>
         <div class="card-content">
+            <h6 className= "black-text"><strong>{ title }</strong></h6>
             <p>{ text }</p>
         </div>
         <div class="card-action">

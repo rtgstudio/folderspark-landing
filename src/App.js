@@ -1,7 +1,15 @@
 import React from 'react'
 import './App.css'
-import Landing from './components/landing'
+import Navbar from './components/navbar'
+import Routes from './Routes'
 
-const App = () => <Landing />
+const App = () => {
+    return(
+        <>
+            <Navbar />
+            <Routes />
+        </>
+    )
+}
 
 export default App
