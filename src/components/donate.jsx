@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import Slider from './slider'
 
@@ -19,4 +20,10 @@ const Donate = () => {
     )
 }
 
+=======
+import React from 'react'
+
+const Donate = () => <h1>Donate here</h1>
+
+>>>>>>> 251b314c3133973a6c481a318a25bfc8cd9d5cc1
 export default Donate
