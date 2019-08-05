@@ -1,12 +1,14 @@
-<<<<<<< HEAD
 import React from 'react'
 
-const Slider = () => <h2 className = "center">Slider here</h2>
-      
-=======
-import React from 'react'
 
-const Slider = () => <h2 className = "center">Slider here</h2>
+const Slider = () => {
+    return(
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="https://rtgstudios.in/folderspark/jkl3.jpg" alt="slider image1"/></a>
+            <a class="carousel-item" href="#two!"><img src="https://rtgstudios.in/folderspark/jkl.jpg" alt="slider image2"/></a>
+            <a class="carousel-item" href="#three!"><img src="https://rtgstudios.in/folderspark/jkl2.jpg" alt="slider image3"/></a>
+      </div>
+    )
+}
       
->>>>>>> 251b314c3133973a6c481a318a25bfc8cd9d5cc1
 export default Slider
