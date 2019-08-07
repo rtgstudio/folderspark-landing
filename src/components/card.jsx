@@ -5,7 +5,7 @@ import React from 'react'
 const Card = ({imgsrc, title, link, text}) => 
     <div class="card z-depth-4">
         <div class="card-image">
-            <img src={ imgsrc } alt="cardimg" />
+            <img className = 'responsive-img' src={ imgsrc } alt="cardimg" />
         </div>
         <div class="card-content">
             <h6 className= "black-text"><strong>{ title }</strong></h6>

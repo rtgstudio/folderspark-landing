@@ -1,3 +1,8 @@
 .navStyle {
     background-image: linear-gradient(to right, #761908, #E02D0C)
 }
+
+.hrStyle {
+    border-top: 1px solid #C4BDBA;
+}
+
